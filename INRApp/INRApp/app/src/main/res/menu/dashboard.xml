@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/home"
+        android:icon="@drawable/dashbaord"
+        android:title="Dashboard" />
+
+    <item android:id="@+id/calculator"
+        android:icon="@drawable/catalog"
+        android:title="Dose Calculator" />
+
+    <item android:id="@+id/info"
+        android:icon="@drawable/ic_assignment_black_24dp"
+        android:title="Diet Strategy" />
+
+    <item android:id="@+id/aboutus"
+        android:icon="@drawable/ic_apps_black_24dp"
+        android:title="About Us" />
+
+    <item android:id="@+id/profile"
+        android:icon="@drawable/profile"
+        android:title="Profile" />
+</menu>

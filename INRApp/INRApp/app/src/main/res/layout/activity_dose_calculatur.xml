@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:background="@drawable/back"
+    android:layout_height="match_parent">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_marginTop="25dp"
+        android:textSize="20sp"
+        android:text="Warfarin Dose Calculator !"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textColor="#ffffff"
+        android:layout_height="wrap_content">
+
+    </TextView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_marginTop="105dp"
+        android:textSize="15sp"
+        android:text="We need few details before we proceed."
+
+        android:gravity="center"
+        android:layout_height="wrap_content">
+
+    </TextView>
+    <androidx.cardview.widget.CardView
+        android:layout_width="wrap_content"
+        android:layout_marginTop="5dp"
+        app:cardBackgroundColor="#EBEBED"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        app:cardCornerRadius="30dp"
+        app:cardPreventCornerOverlap="true"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:padding="10dp"
+            android:layout_height="match_parent">
+    <com.google.android.material.textfield.TextInputLayout
+    android:layout_width="match_parent"
+    style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+    android:hint="Enter your current INR"
+    app:errorEnabled="true"
+
+    android:layout_marginBottom="5dp"
+    android:layout_marginStart="10dp"
+    android:layout_marginEnd="10dp"
+    app:boxCornerRadiusBottomEnd="15dp"
+    app:boxCornerRadiusBottomStart="15dp"
+    app:startIconTint="#0C51DC"
+    app:boxStrokeColor="#0C51DC"
+    android:layout_gravity="center"
+
+    app:boxCornerRadiusTopEnd="15dp"
+
+    app:boxCornerRadiusTopStart="15dp"
+    android:layout_height="wrap_content">
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:layout_width="match_parent"
+        android:inputType="numberDecimal"
+        android:ems="10"
+        android:id="@+id/currentInr"
+
+        android:fontFamily="sans-serif"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:layout_height="wrap_content"
+        />
+
+</com.google.android.material.textfield.TextInputLayout>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_marginStart="30dp"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:textColor="#233EC1"
+        android:text="Bleeding?">
+
+
+    </TextView>
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:id="@+id/bleedingInfo">
+
+        <RadioButton
+            android:id="@+id/bleeding"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" No Bleeding"
+
+            android:checked="false"
+            android:textSize="15dp" />
+
+        <RadioButton
+            android:id="@+id/seriousBleeding"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" Serious Bleeding"
+
+            android:layout_marginBottom="20dp"
+            android:checked="false"
+            android:textSize="15dp" />
+    </RadioGroup>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        android:hint="Enter your current Warfarin Dosage"
+        app:errorEnabled="true"
+
+        android:layout_marginBottom="5dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        app:boxCornerRadiusBottomEnd="15dp"
+        app:boxCornerRadiusBottomStart="15dp"
+        app:startIconTint="#0C51DC"
+        app:boxStrokeColor="#0C51DC"
+        android:layout_gravity="center"
+
+        app:boxCornerRadiusTopEnd="15dp"
+
+        app:boxCornerRadiusTopStart="15dp"
+        android:layout_height="wrap_content">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:inputType="numberDecimal"
+            android:ems="100"
+            android:id="@+id/dosage"
+
+            android:fontFamily="sans-serif"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:layout_height="wrap_content"
+            />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_marginStart="30dp"
+        android:textStyle="bold"
+        android:textSize="18dp"
+        android:textColor="#233EC1"
+        android:text="Please enter your Target INR?">
+
+
+    </TextView>
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:id="@+id/target_inr">
+
+                <RadioButton
+                    android:id="@+id/op1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="2.0-3.0"
+
+                    android:checked="false"
+                    android:textSize="15dp" />
+
+                <RadioButton
+                    android:id="@+id/op2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="2.5-3.5"
+
+
+                    android:checked="false"
+                    android:textSize="15dp" />
+            </RadioGroup>
+            <TextView
+                android:layout_width="match_parent"
+                android:textColor="#3E3E3E"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:text="Get Recommendations"
+                android:layout_marginBottom="5dp"
+                android:id="@+id/rec"
+
+
+                android:textAllCaps="false"
+                android:layout_height="wrap_content">
+
+            </TextView>
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+
+
+    <TextView
+        android:layout_width="150dp"
+        android:textColor="@android:color/white"
+        android:background="@drawable/button_rounded"
+        android:drawableEnd="@drawable/forward_wrap"
+        android:textStyle="bold"
+        android:text="Continue"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="20dp"
+        android:id="@+id/submit"
+        android:layout_gravity="center"
+        android:elevation="6dp"
+        android:padding="15dp"
+        android:gravity="center"
+        android:textAllCaps="false"
+        android:layout_height="50dp">
+
+    </TextView>
+
+</LinearLayout>

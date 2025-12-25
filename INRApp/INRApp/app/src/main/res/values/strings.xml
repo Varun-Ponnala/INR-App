@@ -1,0 +1,67 @@
+<resources>
+    <string name="app_name">INR App</string>
+    <string name="recommendation">A blood-thinning drug called <b>warfarin</b> aids in the treatment and prevention of blood clots. Warfarin users do not require a particular diet. Warfarin, however, may not function as well in preventing blood clots when consumed with certain foods and beverages. When taking warfarin, it\'s crucial to watch what you consume. For instance, vitamin K may reduce the effectiveness of warfarin. \n Therefore, it\'s crucial to consume roughly the same amount of vitamin K each day. For adult men, 120 micrograms of vitamin K is the recommended daily dose (mcg). It is 90 mcg for mature females. To keep vitamin K intake consistent, avoid changing the amounts of vitamin K-rich foods or drinks you have from day to day or week to week. Vitamin K-rich foods include:
+        \n
+        \n <li><b>Kale</b></li>
+        \n <li><b>Spinach</b></li>
+        \n <li><b>Belgian spuds</b></li>
+        \n <li><b>Greens for a salad</b></li>
+        \n <li><b>Green mustard</b></li>
+        \n <li><b>Radishes greens</b></li>
+        \n <li><b>Geneva chard</b></li>
+        \n <li><b>Broccoli</b></li>
+        \n <li><b>Asparagus</b></li>
+        \n <li><b>Green tea or chamomile tea</b></li>
+        \n <li><b>Seaweed</b></li>
+        \n
+        \n Drinking certain things while taking warfarin may cause bleeding issues. When using warfarin, stay away from or consume these in moderation only:
+        \n
+        \n <li><b>Grapefruit juice</b></li>
+        \n <li><b>Orange juice</b></li>
+        \n <li><b>Alcohol</b></li>
+
+
+
+    </string>
+
+    <string name="aboutus">
+        Hi, my name is <b>Varun Ponnala</b> and I am a 10th grader at Oakridge International School. In ninth grade, my father was told that his aortic valve was enlarged to the point where he needed to get an aortic valve replacement surgery immediately. They were going to have to replace his enlarged valve with a mechanical valve. He went to a well reputed hospital around the globe known as Mayo Clinic in order to be treated. Fortunately, the
+surgery went just fine, however he was told to use a tablet called warfarin every day to maintain his target INR.
+ \n
+        \n
+Additionally, he had to visit the doctor every week to get the right amount of warfarin dosage. I really wanted to help people like my father from going to the doctor every week and make it less stressful on them.
+     \n
+        \n
+Growing up , I have always been fascinated by coding. Learning Python and Java has been a delightful experience. With Java, I have been learning to develop apps on android studio code.  Hence, I decided to make an app that can give the right amount of warfarin dosage based on their INR.
+
+    </string>
+
+    <string name="source">Source : <a href="https://www.mayoclinic.org/diseases-conditions/thrombophlebitis/expert-answers/warfarin/faq-20058443">Click Here to Know more</a></string>
+
+    <string-array name="indication">
+        <item>Venous Thrombosis</item>
+        <item>Stroke and Thromboembolism</item>
+        <item>Cardiac Valve Replacement</item>
+        <item>Rheumatic Valve Disease</item>
+        <item>Cryptogenic Stroke and Patent Foramen Ovale With DVT</item>
+        <item>Cardioembolic Stroke or TIA</item>
+        <item>Systolic LV Dysfunction</item>
+        <item>Antiphospholipid Antibody Syndrome</item>
+    </string-array>
+
+
+    <string-array name="target_inr">
+        <item>Select target inr</item>
+        <item>Less than 2.0</item>
+        <item>2.0–2.3</item>
+        <item>2.3–2.4</item>
+        <item>2.5–3.5</item>
+        <item>3.6–3.7</item>
+        <item>4.0–4.4</item>
+        <item>More than 4.5</item>
+
+    </string-array>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

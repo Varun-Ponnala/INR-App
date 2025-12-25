@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "575974008183",
+    "project_id": "inr-app-cca04",
+    "storage_bucket": "inr-app-cca04.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:575974008183:android:4c8d0c454ccb979c332d72",
+        "android_client_info": {
+          "package_name": "com.example.inrapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "575974008183-lo61ndok0s28c4e65cpgmo2as08sdovl.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA93PPbThQMdi467hyO1wqgqvb5YJC7YXc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "575974008183-lo61ndok0s28c4e65cpgmo2as08sdovl.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
